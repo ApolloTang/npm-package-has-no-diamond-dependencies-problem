@@ -1,0 +1,12 @@
+{
+  "name": "@apollotang/demo-diamond-dependency-pkg-a",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "author": "Apollo Tang",
+  "license": "MIT",
+  "dependencies": {
+    "@apollotang/demo-diamond-dependency-pkg-b": "1.0.0",
+    "@apollotang/demo-diamond-dependency-pkg-c": "1.0.0"
+  }
+}
