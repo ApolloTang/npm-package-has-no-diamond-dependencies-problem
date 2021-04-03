@@ -26,13 +26,11 @@
 │       │   └── index.js
 │       └── package.json
 ├── private-packages/
-│   ├── demo-diamond-dependency-pkg-a/
-│   │   ├── src/
-│   │   │   └── index.js
-│   │   └── package.json
-│   └── directory-structure.md
+│   └── demo-diamond-dependency-pkg-a/
+│       ├── src/
+│       │   └── index.js
+│       └── package.json
 ├── directory-structure.md
-├── dot-npmrc-for-verdaccio
 ├── lerna.json
 ├── package.json
 └── yarn.lock
