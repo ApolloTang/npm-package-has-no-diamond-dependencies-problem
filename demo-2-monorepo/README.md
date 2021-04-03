@@ -30,7 +30,6 @@
 │       ├── src/
 │       │   └── index.js
 │       └── package.json
-├── directory-structure.md
 ├── lerna.json
 ├── package.json
 └── yarn.lock
