@@ -1,28 +1,28 @@
 ```
-demo-pkg-a
+.
 ├── node_modules/
 │   └── @apollotang/
-│       ├── demo-pkg-b/
-│       │   ├── package.json
-│       │   └── src/
-│       │       └── index.js
-│       ├── demo-pkg-c/
+│       ├── demo-diamond-dependency-pkg-b/
+│       │   ├── src/
+│       │   │   └── index.js
+│       │   └── package.json
+│       ├── demo-diamond-dependency-pkg-c/
 │       │   ├── node_modules/
 │       │   │   └── @apollotang/
-│       │   │       └── demo-pkg-d/
-│       │   │           ├── package.json
-│       │   │           └── src/
-│       │   │               └── index.js
-│       │   ├── package.json
-│       │   └── src/
-│       │       └── index.js
-│       └── demo-pkg-d/
-│           ├── package.json
-│           └── src/
-│               └── index.js
-├── package.json
+│       │   │       └── demo-diamond-dependency-pkg-d/
+│       │   │           ├── src/
+│       │   │           │   └── index.js
+│       │   │           └── package.json
+│       │   ├── src/
+│       │   │   └── index.js
+│       │   └── package.json
+│       └── demo-diamond-dependency-pkg-d/
+│           ├── src/
+│           │   └── index.js
+│           └── package.json
 ├── src/
 │   └── index.js
+├── package.json
 └── yarn.lock
 
 ```
