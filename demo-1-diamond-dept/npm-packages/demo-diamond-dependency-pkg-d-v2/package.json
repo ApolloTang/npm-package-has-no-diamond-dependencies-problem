@@ -1,5 +1,5 @@
 {
-  "name": "@apollotang/demo-pkg-d",
+  "name": "@apollotang/demo-diamond-dependency-pkg-d",
   "version": "2.0.0",
   "main": "src/index.js",
   "author": "Apollo Tang",

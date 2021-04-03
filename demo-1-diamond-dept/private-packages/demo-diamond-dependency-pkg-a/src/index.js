@@ -1,7 +1,7 @@
 const pkgJson = require('../package.json')
 
-const dependency = require('@apollotang/demo-pkg-b')
-const dependency2 = require('@apollotang/demo-pkg-c')
+const dependency = require('@apollotang/demo-diamond-dependency-pkg-b')
+const dependency2 = require('@apollotang/demo-diamond-dependency-pkg-c')
 
 
 let output = `${pkgJson.name}:${pkgJson.version} ---> ${dependency.name}:${dependency.version}`
